@@ -24,6 +24,7 @@ public class Problem1Test {
     @Test
     public void should_return_sum_of_all_multiple_of_3_and_5(){
         assertThat(23).isEqualTo(problem.getMultiples(3, 5, 10));
+        assertThat(2318).isEqualTo(problem.getMultiples(3, 5, 100));
         assertThat(233168).isEqualTo(problem.getMultiples(3, 5, 1000));
     }
 
